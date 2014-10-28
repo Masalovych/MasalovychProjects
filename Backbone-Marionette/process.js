@@ -5,11 +5,12 @@ define([
     'backbone',
     'marionette',
     'metro',
-
+    'collections/manager/exceptionWorkersCollection',
     './processEmptyView',
     './processRow',
     'text!templates/manager/monitoring/exception/process.html'
 ], function ($, jqueryUi,_, Backbone, Marionette, METRO,
+             WorkersCollection,
              EmptyView,
              transferRow,
              template) {
@@ -44,7 +45,19 @@ define([
         initialize: function () {
             var that = this;
             this.model = this.options.context.model;
-            this.collection = this.options.context.usersCollection;
+            this.collection = new WorkersCollection();
+            this.collection.fetch({
+                data:{
+                    orderNumber: this.model.get('orderNumber'),
+                    deliveryNumber: this.model.get('deliveryNum')
+                },
+                success: function(){
+                    console.log('exception workers get success');
+                },
+                error: function(){
+                    alert("can't get exception workers");
+                }
+            });
         },
 
         onRender : function () {},
@@ -107,18 +120,12 @@ define([
                 url: url,
                 type: "get",
                 success: function(){
-//                    if(that.selectMethod == "2"){
-//                        app.vent.trigger('batch:worker:change', {user: that.collection.get(userId).toJSON(), batchNumber: masterBatchId});
-//                    }else{
-//                        app.vent.trigger('batch:worker:change', {user: false, batchNumber: masterBatchId});
-//                    }
-//                    $('.transfer').addClass('hideBlock');
-
+                    console.log('exception create batch success');
                     that.options.context.deleteOrder();
                     $('.window-overlay').click();
                 },
                 error: function(){
-//                    app.vent.trigger('adminError',{type: "showMessage", message: "can't save"});
+                    alert("can't create batch");
                 }
             });
         }

@@ -49,28 +49,8 @@ define([
         },
 
         initialize:function(){
-            var that = this;
-
-            that.collection = new Collection();
-
-            $.ajax({
-                type: 'GET',
-                url: '/monitoring/exception/orders',
-                data:{
-                    locationId: app.me.get('locationId')
-//                    locationId: 1
-                },
-                success: function(data){
-                    that.collection.reset(data.orders);
-                    that.usersCollection = new Backbone.Collection(data.users);
-
-                    console.log('exception orders get success');
-
-                },
-                error: function(){
-                    alert("can't get exception orders");
-                }
-            });
+            this.collection = new Collection();
+            this.fetchCollection();
         },
 
         onRender:function(){
@@ -113,8 +93,8 @@ define([
         showTabs: function(options){
             if(options.tabs){
                 var tabsArr = [];
-                for(var i = 0; i <= 8; i++){
-                    if(options.collection.where({orderSubType: i}).length){tabsArr.push({subType: this.subTypes[i], subTypeIndex: i})}
+                for(var i = 1; i <= 8; i++){
+                    if(options.collection.where({orderSubType: i}).length){tabsArr.push({subType: this.subTypes[i], subTypeIndex: i});}
                 }
                 this.ui.tabs.html(_.template(tabsTemplate, {arr: tabsArr}));
                 this.filterSubTypes(null, tabsArr[0].subTypeIndex);
@@ -164,16 +144,28 @@ define([
 
                 var filteredArr = this.collection.where({orderType: + options.type});
                 collection = new Collection(filteredArr);
-                if(options.type == "2"){this.showTabs({tabs: true, collection: collection})}
+                if(options.type == "2" && collection.length != 0){this.showTabs({tabs: true, collection: collection})}
                 else{this.showTabs({tabs: false})}
             }
             this.showTable(collection);
         },
 
         deleteOrder: function(){
+            this.fetchCollection();
             this.filteredCollection.remove(this.model);
             this.showTable(this.filteredCollection);
             this.headerView.hideButton();
+        },
+
+        fetchCollection: function(){
+            this.collection.fetch({
+                success: function(){
+                    console.log('exception orders get success');
+                },
+                error: function(){
+                    alert("can't get exception orders");
+                }
+            });
         }
     });
 });

@@ -22,6 +22,7 @@ define([
         },
 
         onRender:  function(){
+            this.markFilteredButton({currentTarget: '.filterAll'});
             this.hideButton();
         },
 
@@ -29,6 +30,7 @@ define([
         },
 
         filterOrders: function(e){
+            this.markFilteredButton(e);
             this.options.context.filterOrders({type: $(e.currentTarget).attr('data-keyword')});
         },
 
@@ -42,6 +44,10 @@ define([
 
         hideButton: function(){
             this.$('.process').addClass('hideBlock');
+        },
+
+        markFilteredButton: function(e){
+            this.$(e.currentTarget).css({'background-color': 'rgb(226, 226, 226)'}).siblings().css({'background-color': 'inherit'});
         }
 
     });
