@@ -63,7 +63,5 @@ define(function (require) {
                 }
             });
         }
-
     });
-
 });

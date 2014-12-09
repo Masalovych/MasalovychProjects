@@ -7,14 +7,15 @@ define(function (require) {
         Backbone    = require('backbone'),
         Marionette  = require('marionette');
 
+    // louder
+    var Louder = require('widgets/loader/main');
+
     // Templates
     var layout      = require('text!../templates/item.html');
 
     return Marionette.ItemView.extend({
 
         tagName: 'li',
-
-        className: ''/*'accordion-frame'*/,
 
         template: layout,
 
@@ -51,6 +52,10 @@ define(function (require) {
                 
             if (link.type === 'url') {
                 if(link.ref == '/'){
+
+                    this.louder = new Louder();
+                    this.louder.start();
+
                     $.ajax({
                         url: '/auth/logout',
                         type: 'get',
@@ -68,7 +73,7 @@ define(function (require) {
         
         select:function(){
             if(this.model.has('callback'))
-                this.model.get('callback')(this.model);console.log(this.model.toJSON());
+                this.model.get('callback')(this.model);
         }
     });
 });

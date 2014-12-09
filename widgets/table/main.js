@@ -28,79 +28,38 @@ define(function (require) {
 
         itemViewOptions: function(){return{context: this}},
 
-        collectionEvents: {
-            "sort": "collectionLoaded",
-            'reset': 'resetColl'
-        },
-
-        events: {
-            'render:collection': 'onRenderCollection'
-        },
-
-        resetColl: function(){
-            var that = this;
-            setTimeout( function(){that.collectionLoaded()}, 10);
-        },
-
-
         serializeData:function(){
             return this.model.toJSON();
         },
+
         initialize: function(){
             var that = this;
             this.model = new Backbone.Model(this.options);
             this.collection = this.options.collection;
-
-
             this.setSortable();
-
-            $(window).resize(function(){that.collectionLoaded()});
         },
-
 
         onRender: function(){
-            this.setTableHeight();
-            this.resetColl();
+            this.addTableName();
+            this.addNanoscroler();
         },
 
-        collectionLoaded:function(){
-            var tdColl = this.$('tbody tr:first-child td');
-            var thColl = this.$('thead tr th');
-
-
-            for(var i = 0; i < tdColl.length; i++) {
-                var td = tdColl.eq(i),
-                    th = thColl.eq(i);
-
-                th.css({'position': 'absolute'});
-
-                th.offset({top: th.offset().top, left: td.offset().left + 8});
-//                thTop = th.offset().top;
-//                th.offset({top: thTop, left: td.offset().left});
-            }
-            this.$('thead th').css({'visibility': 'visible'});
+        addNanoscroler: function(){
             this.$(".nano").nanoScroller();
+        },
+
+        addTableName: function(){
+            if(this.options.name) this.$el.addClass(this.options.name)
         },
 
         setSortable: function(){
             if(this.options.sort){this.events = {'click th' : 'sort'}}
         },
 
-        setTableHeight: function(){
-            // debugger;
-            this.options.height = this.options.height || 300;
-
-            this.$('.nano').height(this.options.height);
-
-        },
-
-
         sort:function(e){
-            var el = $(e.currentTarget);
-
-            var name = this.model.get('columns')[el.text()];
-
-            var asc = '';
+            var el = $(e.currentTarget),
+                name = this.model.get('columns')[el.text()],
+                asc = '';
             if(el.attr('type') == 'asc'){
                 asc = el.attr('type');
                 el.removeAttr('type');
@@ -109,11 +68,9 @@ define(function (require) {
                 asc = '';
                 el.attr('type', 'asc');
             }
-
             if(name){
                 el.parent().find('i').remove();
                 el.append('<i class="icon-arrow-down-4"></i>');
-
 
                 this.collection.comparator = function(model){
                     return model.get(name);
@@ -125,9 +82,11 @@ define(function (require) {
                 }
                 this.collection.trigger('reset');
             }
+        },
+
+        unSelectAll: function(){
+            this.$('tbody tr').removeClass('selected').find('input[type="radio"]').prop('checked', false);
         }
-
-
     });
 
 });
