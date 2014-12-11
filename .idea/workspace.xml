@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a29538a-b87e-4519-83a9-55e8b5f31310" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring section/monitoring_section.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sidebar-widget/sidebar.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/table-widget/table-widget.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Genera Warehouse.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpusWorkspase.bmp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringTemplates\dialog.html" afterPath="$PROJECT_DIR$/monitoring section/monitoring section templates/dialog.html" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringTemplates\header.html" afterPath="$PROJECT_DIR$/monitoring section/monitoring section templates/header.html" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringTemplates\main.html" afterPath="$PROJECT_DIR$/monitoring section/monitoring section templates/main.html" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringTemplates\process.html" afterPath="$PROJECT_DIR$/monitoring section/monitoring section templates/process.html" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringTemplates\tabView.html" afterPath="$PROJECT_DIR$/monitoring section/monitoring section templates/tabView.html" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringTemplates\transfer.html" afterPath="$PROJECT_DIR$/monitoring section/monitoring section templates/transfer.html" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringViews\dialog.js" afterPath="$PROJECT_DIR$/monitoring section/dialog.js" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringViews\header.js" afterPath="$PROJECT_DIR$/monitoring section/header.js" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringViews\main.js" afterPath="$PROJECT_DIR$/monitoring section/main.js" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringViews\process.js" afterPath="$PROJECT_DIR$/monitoring section/process.js" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringViews\tabView.js" afterPath="$PROJECT_DIR$/monitoring section/tabView.js" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringViews\transfer.js" afterPath="$PROJECT_DIR$/monitoring section/transfer.js" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\sidebar\README.md" afterPath="$PROJECT_DIR$/sidebar-widget/README.md" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\sidebar\main.js" afterPath="$PROJECT_DIR$/sidebar-widget/main.js" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\sidebar\templates\item.html" afterPath="$PROJECT_DIR$/sidebar-widget/templates/item.html" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\sidebar\templates\layout.html" afterPath="$PROJECT_DIR$/sidebar-widget/templates/layout.html" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\sidebar\views\item.js" afterPath="$PROJECT_DIR$/sidebar-widget/views/item.js" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\table\README.md" afterPath="$PROJECT_DIR$/table-widget/README.md" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\table\main.js" afterPath="$PROJECT_DIR$/table-widget/main.js" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\table\templates\item.html" afterPath="$PROJECT_DIR$/table-widget/templates/item.html" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\table\templates\main.html" afterPath="$PROJECT_DIR$/table-widget/templates/main.html" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\table\views\item.js" afterPath="$PROJECT_DIR$/table-widget/views/item.js" />
     </list>
     <ignored path="MasalovychProjects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +26,15 @@
     <favorites_list name="MasalovychProjects" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="OpusWorkspase.bmp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OpusWorkspase.bmp">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -158,10 +143,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JOB\MasalovychProjects" />
       <recent name="D:\JOB\MasalovychProjects\table-widget" />
       <recent name="D:\JOB\MasalovychProjects\sidebar-widget" />
       <recent name="D:\JOB\MasalovychProjects\monitoring section" />
-      <recent name="D:\JOB\MasalovychProjects" />
       <recent name="D:\JOB\MasalovychProjects\window to add events and reminders to calendar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -404,12 +389,12 @@
       <workItem from="1418131497635" duration="10459000" />
       <workItem from="1418202189087" duration="1570000" />
       <workItem from="1418220876892" duration="59000" />
-      <workItem from="1418290662306" duration="1211000" />
+      <workItem from="1418290662306" duration="2940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14531000" />
+    <option name="totallyTimeSpent" value="16260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -419,7 +404,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6242138" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -573,6 +558,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/window to add events and reminders to the calendar/add event pop-up.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpusWorkspase.bmp">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
