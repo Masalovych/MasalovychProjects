@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a29538a-b87e-4519-83a9-55e8b5f31310" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Genera Warehouse.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpusWorkspase.bmp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring.jpg" />
     </list>
     <ignored path="MasalovychProjects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -389,12 +387,12 @@
       <workItem from="1418131497635" duration="10459000" />
       <workItem from="1418202189087" duration="1570000" />
       <workItem from="1418220876892" duration="59000" />
-      <workItem from="1418290662306" duration="2940000" />
+      <workItem from="1418290662306" duration="3242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16260000" />
+    <option name="totallyTimeSpent" value="16562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
