@@ -2,43 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a29538a-b87e-4519-83a9-55e8b5f31310" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/window to add events and reminders to the calendar/add event pop-up.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/customer Date-Time picker/date-time picker.bmp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/table/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/window to add events and reminders to the calendar/addEventView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/customer Date-Time picker/dateTimePicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoringTemplates/dialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoringViews/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoringTemplates/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoringViews/header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/sidebar/templates/item.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/table/templates/item.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/table/views/item.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoringTemplates/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/table/templates/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoringViews/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoringTemplates/process.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoringViews/process.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoringTemplates/tabView.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoringViews/tabView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoringTemplates/transfer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoringViews/transfer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="D:\JOB\MasalovychProjects\Backbone-Marionette\addEventView.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\JOB\MasalovychProjects\Backbone-Marionette\dateTimePicker.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\JOB\MasalovychProjects\Backbone-Marionette\exceptionHeader.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\JOB\MasalovychProjects\Backbone-Marionette\exceptionTabView.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\JOB\MasalovychProjects\Backbone-Marionette\licenses_popup.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\JOB\MasalovychProjects\Backbone-Marionette\process.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\JOB\MasalovychProjects\Backbone-Marionette\widgets\sidebar\templates\item.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\JOB\MasalovychProjects\Backbone-Marionette\widgets\tables\templates\item.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\JOB\MasalovychProjects\Backbone-Marionette\widgets\tables\templates\main.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\JOB\MasalovychProjects\Backbone-Marionette\widgets\tables\views\item.js" afterPath="" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\Backbone-Marionette\widgets\sidebar\README.md" afterPath="$PROJECT_DIR$/widgets/sidebar/README.md" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\Backbone-Marionette\widgets\sidebar\main.js" afterPath="$PROJECT_DIR$/widgets/sidebar/main.js" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\Backbone-Marionette\widgets\sidebar\templates\layout.html" afterPath="$PROJECT_DIR$/widgets/sidebar/templates/layout.html" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\Backbone-Marionette\widgets\sidebar\views\item.js" afterPath="$PROJECT_DIR$/widgets/sidebar/views/item.js" />
-      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\Backbone-Marionette\widgets\tables\main.js" afterPath="$PROJECT_DIR$/widgets/table/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitoring section/monitoring_section.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sidebar-widget/sidebar.bmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/table-widget/table-widget.bmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringTemplates\dialog.html" afterPath="$PROJECT_DIR$/monitoring section/monitoring section templates/dialog.html" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringTemplates\header.html" afterPath="$PROJECT_DIR$/monitoring section/monitoring section templates/header.html" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringTemplates\main.html" afterPath="$PROJECT_DIR$/monitoring section/monitoring section templates/main.html" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringTemplates\process.html" afterPath="$PROJECT_DIR$/monitoring section/monitoring section templates/process.html" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringTemplates\tabView.html" afterPath="$PROJECT_DIR$/monitoring section/monitoring section templates/tabView.html" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringTemplates\transfer.html" afterPath="$PROJECT_DIR$/monitoring section/monitoring section templates/transfer.html" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringViews\dialog.js" afterPath="$PROJECT_DIR$/monitoring section/dialog.js" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringViews\header.js" afterPath="$PROJECT_DIR$/monitoring section/header.js" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringViews\main.js" afterPath="$PROJECT_DIR$/monitoring section/main.js" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringViews\process.js" afterPath="$PROJECT_DIR$/monitoring section/process.js" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringViews\tabView.js" afterPath="$PROJECT_DIR$/monitoring section/tabView.js" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\monitoringViews\transfer.js" afterPath="$PROJECT_DIR$/monitoring section/transfer.js" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\sidebar\README.md" afterPath="$PROJECT_DIR$/sidebar-widget/README.md" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\sidebar\main.js" afterPath="$PROJECT_DIR$/sidebar-widget/main.js" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\sidebar\templates\item.html" afterPath="$PROJECT_DIR$/sidebar-widget/templates/item.html" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\sidebar\templates\layout.html" afterPath="$PROJECT_DIR$/sidebar-widget/templates/layout.html" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\sidebar\views\item.js" afterPath="$PROJECT_DIR$/sidebar-widget/views/item.js" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\table\README.md" afterPath="$PROJECT_DIR$/table-widget/README.md" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\table\main.js" afterPath="$PROJECT_DIR$/table-widget/main.js" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\table\templates\item.html" afterPath="$PROJECT_DIR$/table-widget/templates/item.html" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\table\templates\main.html" afterPath="$PROJECT_DIR$/table-widget/templates/main.html" />
+      <change type="MOVED" beforePath="D:\JOB\MasalovychProjects\widgets\table\views\item.js" afterPath="$PROJECT_DIR$/table-widget/views/item.js" />
     </list>
     <ignored path="MasalovychProjects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -149,67 +138,11 @@
               <option name="myItemId" value="MasalovychProjects" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="window to add events and reminders to the calendar" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MasalovychProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MasalovychProjects" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widgets" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MasalovychProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MasalovychProjects" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MasalovychProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MasalovychProjects" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitoringTemplates" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MasalovychProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MasalovychProjects" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customer Date-Time picker" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,17 +152,17 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../warehouse" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JOB\MasalovychProjects\table-widget" />
+      <recent name="D:\JOB\MasalovychProjects\sidebar-widget" />
+      <recent name="D:\JOB\MasalovychProjects\monitoring section" />
+      <recent name="D:\JOB\MasalovychProjects" />
       <recent name="D:\JOB\MasalovychProjects\window to add events and reminders to calendar" />
-      <recent name="D:\JOB\MasalovychProjects\customer Date-Time picker" />
-      <recent name="D:\JOB\MasalovychProjects\Backbone-Marionette" />
-      <recent name="D:\JOB\MasalovychProjects\Backbone-Marionette\widgets" />
-      <recent name="D:\JOB\MasalovychProjects\Backbone-Marionette\widgets\table" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JOB\MasalovychProjects\window to add events and reminders to calendar" />
@@ -468,12 +401,15 @@
       <created>1418130211739</created>
       <updated>1418130211739</updated>
       <workItem from="1418130212190" duration="1232000" />
-      <workItem from="1418131497635" duration="10009000" />
+      <workItem from="1418131497635" duration="10459000" />
+      <workItem from="1418202189087" duration="1570000" />
+      <workItem from="1418220876892" duration="59000" />
+      <workItem from="1418290662306" duration="1211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11241000" />
+    <option name="totallyTimeSpent" value="14531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -502,8 +438,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -526,197 +462,62 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/widgets/table/main.js">
+    <entry file="file://$PROJECT_DIR$/sidebar-widget/views/item.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1666">
-          <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widgets/table/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/widgets/table/templates/item.html">
+    <entry file="file://$PROJECT_DIR$/sidebar-widget/views/item.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14604811" vertical-offset="0" max-vertical-offset="582">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widgets/table/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55498284" vertical-offset="0" max-vertical-offset="582">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widgets/table/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1666">
-          <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widgets/table/views/item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.28196722" vertical-offset="274" max-vertical-offset="884">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widgets/table/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6730769" vertical-offset="91" max-vertical-offset="1445">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widgets/sidebar/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
-          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widgets/sidebar/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/widgets/sidebar/views/item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4840871" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoringTemplates/dialog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6731107" vertical-offset="383" max-vertical-offset="1122">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widgets/sidebar/templates/item.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23901582" vertical-offset="0" max-vertical-offset="569">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoringTemplates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.02233677" vertical-offset="13" max-vertical-offset="935">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoringTemplates/process.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.28471" vertical-offset="0" max-vertical-offset="833">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoringTemplates/transfer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68717045" vertical-offset="0" max-vertical-offset="731">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoringViews/dialog.js">
+    <entry file="file://$PROJECT_DIR$/monitoring section/dialog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.80067" vertical-offset="2701" max-vertical-offset="3298">
           <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/monitoringViews/header.js">
+    <entry file="file://$PROJECT_DIR$/monitoring section/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7721943" vertical-offset="576" max-vertical-offset="1598">
           <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/monitoringViews/main.js">
+    <entry file="file://$PROJECT_DIR$/monitoring section/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.60134006" vertical-offset="440" max-vertical-offset="1037">
           <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/monitoringViews/process.js">
+    <entry file="file://$PROJECT_DIR$/monitoring section/process.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1147541" vertical-offset="510" max-vertical-offset="1309">
           <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/monitoringViews/tabView.js">
+    <entry file="file://$PROJECT_DIR$/monitoring section/tabView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.82579565" vertical-offset="0" max-vertical-offset="4318">
           <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/monitoringViews/transfer.js">
+    <entry file="file://$PROJECT_DIR$/monitoring section/transfer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.80067" vertical-offset="1783" max-vertical-offset="2380">
           <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoringTemplates/tabView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitoringTemplates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26288658" vertical-offset="0" max-vertical-offset="582">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customer Date-Time picker/date-time picker.bmp">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/customer Date-Time picker/dateTimePicker.js">
@@ -727,17 +528,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/window to add events and reminders to the calendar/add event pop-up.bmp">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/window to add events and reminders to the calendar/addEventView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34170854" vertical-offset="0" max-vertical-offset="5729">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer Date-Time picker/date-time picker.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sidebar-widget/views/item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring section/monitoring section templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring section/monitoring_section.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sidebar-widget/sidebar.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table-widget/table-widget.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/window to add events and reminders to the calendar/add event pop-up.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
